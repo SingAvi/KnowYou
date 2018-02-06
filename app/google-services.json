@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "77285849649",
+    "firebase_url": "https://knowyou-bcb80.firebaseio.com",
+    "project_id": "knowyou-bcb80",
+    "storage_bucket": "knowyou-bcb80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77285849649:android:a9b752cc49dc32c7",
+        "android_client_info": {
+          "package_name": "com.example.avinash_singh.knowyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77285849649-2akd5ni6l4r8nffpgfoa639o2d2sugp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avinash_singh.knowyou",
+            "certificate_hash": "e39754302f2798d3f6d8550876bc5ed26832a293"
+          }
+        },
+        {
+          "client_id": "77285849649-h7unpgtvqfopqd2inhqiep51dsejtddv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCItQ4-jIgHYhrB52I8o-7sYV2WMutx-50"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77285849649-h7unpgtvqfopqd2inhqiep51dsejtddv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

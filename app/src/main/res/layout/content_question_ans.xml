@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cecdcd"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.avinash_singh.knowyou.questionAns"
+    tools:showIn="@layout/activity_question_ans">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:id="@+id/cardView1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:textSize="20sp"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Which color do you prefer the most ?"-->
+            <!--android:textSize="15sp"-->
+            <!--android:id="@+id/q1"-->
+            <!--android:layout_marginTop="20sp"-->
+            <!--android:layout_marginLeft="10sp"-->
+            <!--android:textColor="#afafaf" />-->
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="42dp"
+            android:text="Red"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65sp"
+            android:textColor="#afafaf"
+            android:text="Blue"/>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="88dp"
+            android:textColor="#afafaf"
+            android:text="Green" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="110dp"
+            android:text="Yellow"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView1"
+        android:layout_marginTop="10sp"
+        android:id="@+id/cardView2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The best quality time can be?"
+            android:textSize="15sp"
+            android:id="@+id/q2"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="#afafaf" />
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="42dp"
+            android:text="Cycling"/>
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65sp"
+            android:textColor="#afafaf"
+            android:text="Biking"/>
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="88dp"
+            android:textColor="#afafaf"
+            android:text="Sleeping" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="110dp"
+            android:text="Running"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView2"
+        android:layout_marginTop="10sp"
+        android:id="@+id/cardView3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which washing powder do you use? "
+            android:textSize="15sp"
+            android:id="@+id/q3"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="#afafaf" />
+
+        <CheckBox
+            android:id="@+id/checkBox31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="42dp"
+            android:text="Surf Excel"/>
+
+        <CheckBox
+            android:id="@+id/checkBox32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65sp"
+            android:textColor="#afafaf"
+            android:text="Tide"/>
+
+        <CheckBox
+            android:id="@+id/checkBox33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="88dp"
+            android:textColor="#afafaf"
+            android:text="Ariel" />
+
+        <CheckBox
+            android:id="@+id/checkBox34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="110dp"
+            android:text="Nirma"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView3"
+        android:layout_marginTop="10sp"
+        android:id="@+id/cardView4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What drink do you prefer the most? "
+            android:textSize="15sp"
+            android:id="@+id/q4"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="#afafaf" />
+
+        <CheckBox
+            android:id="@+id/checkBox41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="42dp"
+            android:text="Coffee"/>
+
+        <CheckBox
+            android:id="@+id/checkBox42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65sp"
+            android:textColor="#afafaf"
+            android:text="Tea"/>
+
+        <CheckBox
+            android:id="@+id/checkBox43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="88dp"
+            android:textColor="#afafaf"
+            android:text="Soft Drink" />
+
+        <CheckBox
+            android:id="@+id/checkBox44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/q1"
+            android:textColor="#afafaf"
+            android:layout_marginTop="110dp"
+            android:text="Hard Drink"/>
+
+    </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardView4"
+                android:layout_marginTop="10sp"
+                android:id="@+id/cardView5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What drink do you prefer the most? "
+                    android:textSize="15sp"
+                    android:id="@+id/q5"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="10sp"
+                    android:textColor="#afafaf" />
+
+                <CheckBox
+                    android:id="@+id/checkBox51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/q1"
+                    android:textColor="#afafaf"
+                    android:layout_marginTop="42dp"
+                    android:text="Classical"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="65sp"
+                    android:textColor="#afafaf"
+                    android:text="Rock"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="88dp"
+                    android:textColor="#afafaf"
+                    android:text="Melody" />
+
+                <CheckBox
+                    android:id="@+id/checkBox54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/q1"
+                    android:textColor="#afafaf"
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginTop="110dp"
+                    android:text="Sufi"/>
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

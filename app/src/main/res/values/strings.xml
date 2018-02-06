@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KnowYou</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Analytics</string>
+    <string name="title_activity_question_ans">questionAns</string>
+</resources>
