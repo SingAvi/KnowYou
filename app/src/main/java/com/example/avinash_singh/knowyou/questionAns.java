@@ -110,7 +110,7 @@ public class questionAns extends AppCompatActivity {
 
 
                     Integer p = Integer.parseInt(a);
-                    ++p;
+
 
                     String w = String.valueOf(p);
 
@@ -118,6 +118,7 @@ public class questionAns extends AppCompatActivity {
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("que1");
                     map = new HashMap<>();
                     map.put("1",w);
+                    A =0;
 
 
 
